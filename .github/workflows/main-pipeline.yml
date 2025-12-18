@@ -27,23 +27,3 @@ jobs:
   code-quality-sast:
     needs: build-and-test  # ⚠️ Attend que le build soit terminé
     uses: ./.github/workflows/code-quality-sast.yml
-
-  placeholder:
-    name: Pipeline Principal - En Construction
-    runs-on: ubuntu-latest
-    steps:
-      - name: 📋 Pipeline en construction
-        run: |
-          echo "🚧 Pipeline CI/CD en cours de construction..."
-          echo "Les workflows seront ajoutés progressivement dans les exercices suivants."
-          echo ""
-          echo "📚 Exercices à venir:"
-          echo "  ✅ Build & Tests Unitaires"
-          echo "  🔍 Analyse de Code (SAST)"
-          echo "  🔐 Détection de Secrets"
-          echo "  📦 Analyse des Dépendances (SCA)"
-          echo "  🏗️ Sécurité Infrastructure as Code"
-          echo "  🐳 Build Docker & Scan"
-          echo "  🎯 Tests de Sécurité Dynamiques (DAST)"
-          echo "  📤 Publication Docker Hub"
-          echo "  🚀 Déploiement Production"
