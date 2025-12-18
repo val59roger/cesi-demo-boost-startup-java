@@ -16,8 +16,10 @@ permissions:
 
 jobs:
   # ═══════════════════════════════════════════════
-  # Les jobs seront ajoutés progressivement dans les exercices suivants
+  # ÉTAPE 1 : BUILD & TESTS
   # ═══════════════════════════════════════════════
+  build-and-test:
+    uses: ./.github/workflows/build-unit-tests.yml
 
   placeholder:
     name: Pipeline Principal - En Construction
