@@ -78,6 +78,6 @@ jobs:
   # ÉTAPE 10 : DÉPLOIEMENT EN PRODUCTION
   # ═══════════════════════════════════════════════
   deploy-docker:
-    needs: dast-dynamic-security-testing
+    needs: dast-zap-test
     uses: ./.github/workflows/deploy-docker.yml
     secrets: inherit
